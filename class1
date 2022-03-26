@@ -1,0 +1,23 @@
+#to find where is your bash interpreter located
+$ which bash
+
+#to create a new file (in nano)
+$ nano hello_world.sh
+
+#our first script, whith sudo. The ! is for make a difference between a comment
+# !/bin/bash 
+# declare STRING variable
+STRING = "hello world"
+
+#print a variable
+echo $STRING
+
+#first line is also a place where you put you interpreter
+
+#navigate to the directory
+$chmod +x hello_world.sh
+
+#to execute
+$ ./hello_world.sh
+
+
